@@ -1,0 +1,25 @@
+# Node modules（npm installで生成される）
+node_modules/
+
+# npm log ファイル
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 環境変数などの機密ファイル
+.env
+
+# OSによって自動生成されるファイル
+.DS_Store
+Thumbs.db
+
+# ビルド出力（プロジェクトによってはdistやbuildなど）
+dist/
+build/
+
+# もしTypeScriptを使っている場合
+*.tsbuildinfo
+
+# IDEやエディタが作成する設定ファイル（必要に応じて）
+.vscode/
+.idea/
